@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Wish item" max_length="40" name="x_423003_wish_list_wish_item" type="collection">
         <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="String feild" max_length="100" name="string_feild" type="string"/>
         <index name="index">
             <element name="requester"/>
         </index>
